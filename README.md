@@ -18,3 +18,41 @@ To run this application locally, follow these steps:
    ```bash
    git clone https://github.com/yourusername/streamlit-chatbot-app.git
    cd streamlit-chatbot-app
+
+2. **Create a Virtual Environment (optional but recommended):**
+
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+3. **Install Dependencies:**
+
+pip install -r requirements.txt
+
+4. **Run the Application:**
+
+streamlit run app.py
+
+5. **Access the Application:**
+
+Open your web browser and navigate to http://localhost:8501 to interact with the chatbot.
+
+## Deployment
+To deploy this application on Streamlit Community Cloud:
+
+Push Your Code to GitHub:
+Ensure your code is pushed to a GitHub repository.
+
+Create a New App on Streamlit Community Cloud:
+
+Go to Streamlit Community Cloud.
+Connect your GitHub account.
+Select the repository and the file path (app.py).
+
+## Deploy the App:
+
+Click Deploy and wait for the deployment process to complete.
+Usage
+Once the application is running, you can:
+
+Enter a message in the text input field and click Send to receive a response from the chatbot.
+Click Clear to reset the chat history.
